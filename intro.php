@@ -26,7 +26,7 @@
                     </div>
                 </div>
                 <div class="link-section">
-                    <a href="coder618.pdf" target="_blank" class="coder618-btn gradient-btn main-btn">Download CV</a>
+                    <a href="coder618cv.pdf" target="_blank" class="coder618-btn gradient-btn main-btn">Download CV</a>
                     <button class="coder618-btn gradient-btn main-btn">Contact</button>
                 </div>
             </div>
