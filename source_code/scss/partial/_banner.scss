@@ -48,19 +48,13 @@
         }
     }
 
-    ul{
-        animation-name: gretting;
-        padding: 0;
-        list-style: none;
-        transition: all .4s ease;
-        li{
-            
-
-        }
-    }
     @include media-breakpoint-down(sm) {        
         padding-top: 40px;
         padding-bottom: 40px;
+        .gretting{
+            margin-bottom: 15px;
+        }
+
 
         ul{
             li{

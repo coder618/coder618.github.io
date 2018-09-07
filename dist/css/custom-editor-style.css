@@ -6244,15 +6244,12 @@ section:hover > .sub-title:after,
       display: block;
       animation: greetings 2.5s;
       animation-iteration-count: infinite; }
-  .banner ul {
-    animation-name: gretting;
-    padding: 0;
-    list-style: none;
-    transition: all .4s ease; }
   @media (max-width: 767.98px) {
     .banner {
       padding-top: 40px;
       padding-bottom: 40px; }
+      .banner .gretting {
+        margin-bottom: 15px; }
       .banner ul li {
         font-size: 60px; }
       .banner .gretting span {
