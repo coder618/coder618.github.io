@@ -25,11 +25,8 @@
 
       "js_packages_list" : [        
         "./source_code/js/package/jquery.js",
-
-        
-        "./source_code/js/package/particles.js",
-        
-        "./source_code/js/custom.js"        
+        "./source_code/js/package/particles.js",        
+        "./source_code/js/custom.js"
       ]
     }
 
