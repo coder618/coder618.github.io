@@ -25,17 +25,9 @@
 
       "js_packages_list" : [        
         "./source_code/js/package/jquery.js",
-        "./source_code/js/package/popper.js",
-        "./source_code/js/package/bootstrap.js",
 
         
-        "./source_code/js/package/wordy.js",
-        "./source_code/js/package/aos.js",
         "./source_code/js/package/particles.js",
-        "./source_code/js/package/slick.js",
-        "./source_code/js/package/headroom.js",
-        "./source_code/js/package/typed.js",
-        "./source_code/js/package/progressbar.js",
         
         "./source_code/js/custom.js"        
       ]

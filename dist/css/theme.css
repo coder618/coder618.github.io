@@ -6247,7 +6247,9 @@ section:hover > .sub-title:after,
   @media (max-width: 767.98px) {
     .banner {
       padding-top: 40px;
-      padding-bottom: 40px; } }
+      padding-bottom: 40px; }
+      .banner ul li {
+        font-size: 60px; } }
 
 .about-wraper {
   color: #FFF;
@@ -6287,14 +6289,18 @@ section:not(.banner) {
   padding-bottom: 30px; }
 
 .skill-status {
-  position: relative; }
-  .skill-status .progressbar-text {
-    position: absolute;
-    top: -2px;
-    right: 0;
-    display: inline-block;
-    color: #5d2c69 !important;
-    font-weight: bold; }
+  height: 5px;
+  width: 0%;
+  background: #84006a;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #84006a 0%, #542862 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #84006a 0%, #542862 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #84006a 0%, #542862 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#84006a', endColorstr='#542862',GradientType=1 );
+  /* IE6-9 */ }
 
 .skill-list {
   list-style: none;

@@ -11,19 +11,21 @@
         <div class="sub-section">    
             <h3 class="sub-title">Language</h3>    
             <div class="row skills-wraper">
-                <div class="skill-each-item col-md-6">
+
+                <div class="skill-each-item col-md-6" data-percent="85%">
                     <div class="skill-name"><h4>HTML</h4></div>
                     <div class="skill-status" id="skill_html"></div>        
                 </div>
-                <div class="skill-each-item col-md-6">
+
+                <div class="skill-each-item col-md-6" data-percent="80%" >
                     <div class="skill-name"><h4>CSS</h4></div>
                     <div class="skill-status" id="skill_css"></div>        
                 </div>
-                <div class="skill-each-item col-md-6">
+                <div class="skill-each-item col-md-6" data-percent="55%">
                     <div class="skill-name"><h4>JavaScript</h4></div>
                     <div class="skill-status" id="skill_javascript"></div>        
                 </div>
-                <div class="skill-each-item col-md-6">
+                <div class="skill-each-item col-md-6" data-percent="70%">
                     <div class="skill-name"><h4>PHP</h4></div>
                     <div class="skill-status" id="skill_php"></div>        
                 </div>        
@@ -32,20 +34,20 @@
         <div class="sub-section">    
             <h3 class="sub-title">Framework & CMS</h3>    
             <div class="row skills-wraper">
-                <div class="skill-each-item col-md-6">
+                <div class="skill-each-item col-md-6" data-percent="75%">
                     <div class="skill-name"><h4>WordPress</h4></div>
                     <div class="skill-status" id="skill_wordpress"></div>        
                 </div>
-                <div class="skill-each-item col-md-6">
+                <div class="skill-each-item col-md-6" data-percent="50%">
                     <div class="skill-name"><h4>Laravel</h4></div>
                     <div class="skill-status" id="skill_laravel"></div>        
                 </div>
-                <div class="skill-each-item col-md-6">
+                <div class="skill-each-item col-md-6" data-percent="55%">
                     <div class="skill-name"><h4>Codeigniter</h4></div>
                     <div class="skill-status" id="skill_codeigniter"></div>        
                 </div>
-                <div class="skill-each-item col-md-6">
-                    <div class="skill-name"><h4>Jumla</h4></div>
+                <div class="skill-each-item col-md-6" data-percent="45%">
+                    <div class="skill-name"><h4>Joomla</h4></div>
                     <div class="skill-status" id="skill_jumla"></div>        
                 </div>        
             </div>

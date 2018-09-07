@@ -1,0 +1,63 @@
+.intro{
+    .img-section{
+        margin-bottom: 20px;
+    }
+
+    .link-section{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        >*{
+            width: 48.5%;
+            // font-size: 14px;
+            // padding-left: 5px;
+            // padding-right: 5px;
+        }        
+    }
+    // @include media-breakpoint-down(md) {
+    //     .link-section{
+    //         flex-direction: column;
+    //         >*{
+    //             width: 100%;
+    //             &:first-child{
+    //                 margin-bottom: 10px;
+    //             }
+    //         }
+    //     }       
+     
+    // }
+}
+
+.personal-info{    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li{      
+      position: relative;
+      padding-left: 130px;
+      min-height: 35px;  
+      word-wrap: break-word;  
+    }
+    li span{
+      top: 0;
+      left: 0;
+  
+      position: absolute;
+      color: #fff;
+      background-color: $primary;
+      padding: 5px 15px;
+      display: inline-block;    
+      margin: 2px 15px 2px 0px;
+      min-width: 129.9px;
+      max-width: 130px;
+      margin: 2px 15px 2px 0;
+    }
+    p{
+      margin: 5px 0;
+      
+    }
+}

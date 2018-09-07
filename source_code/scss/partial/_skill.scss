@@ -1,0 +1,49 @@
+
+// Skills
+.skills{
+    background-color: rgba(240, 240, 240, 0.7);
+    .container > p{
+        line-height: 1.5;
+        margin-bottom: 25px;
+    }
+
+}
+.skill-each-item{
+    margin-bottom: 1.5rem;
+    @include media-breakpoint-down(sm) {
+        margin-bottom: 0;
+    }
+
+}
+section:not(.banner){
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.skill-status{
+    height: 5px;
+    width: 0%;
+    background: rgb(132,0,106); /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(132,0,106,1) 0%, rgba(84,40,98,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(132,0,106,1) 0%,rgba(84,40,98,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(132,0,106,1) 0%,rgba(84,40,98,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#84006a', endColorstr='#542862',GradientType=1 ); /* IE6-9 */
+}
+
+.skill-list{
+    list-style: none;
+    padding: 0;
+    li{
+        display: block;
+        padding: 10px 25px;
+        background-color: #f1f1f1;
+        margin-bottom: 1rem;
+        transition: background-color .2s ease;
+        &:hover{
+            color: #FFF;
+            background-color: $primary;
+        }
+    }
+}
+
+  
