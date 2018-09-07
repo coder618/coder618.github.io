@@ -49,3 +49,16 @@ svg#logo {
 @keyframes stroke-offset{
 	100% {stroke-dashoffset: -35%;}
 }
+
+@keyframes greetings{
+    0%{
+        transform: translateY(100%);
+    }
+    10%,80%,90%{
+        transform: translateY(0%);
+    }
+    100%{
+        transform: translateY(-100%);
+    }
+
+}

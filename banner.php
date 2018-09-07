@@ -3,15 +3,7 @@
     <div class="about-wraper">
         <div class="content">
             <div class="gretting">
-                <ul>
-                    <li>Hello</li>
-                    <li>Bonjour</li>
-                    <li>Hola</li>
-                    <li>مرحبا</li>
-                    <li>你好</li>
-                    <li>こんにちは</li>
-                    <li>cześć</li>                    
-                </ul>
+                <span>Hello</span>
             </div>
             <p>
                 I am a WordPress & Front-end Developer.

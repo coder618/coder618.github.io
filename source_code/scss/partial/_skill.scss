@@ -10,9 +10,7 @@
 }
 .skill-each-item{
     margin-bottom: 1.5rem;
-    @include media-breakpoint-down(sm) {
-        margin-bottom: 0;
-    }
+    
 
 }
 section:not(.banner){

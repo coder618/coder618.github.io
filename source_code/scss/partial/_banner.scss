@@ -31,8 +31,21 @@
     
     .gretting{
         overflow: hidden;
-        height: 140px;
         margin-bottom: 25px;
+
+        span{
+            line-height: 1;
+            text-shadow: 3px 3px 6px rgba(150, 150, 150, 0.3);
+            font-size: 100px;
+            letter-spacing: 15px;
+            color: #FFF;     
+            font-weight: 900;
+            animation-name: greetings ;
+            animation-duration: 4s;
+            display: block;
+            animation: greetings 2.5s;
+            animation-iteration-count: infinite;
+        }
     }
 
     ul{
@@ -41,11 +54,7 @@
         list-style: none;
         transition: all .4s ease;
         li{
-            text-shadow: 3px 3px 6px rgba(150, 150, 150, 0.3);
-            font-size: 100px;
-            letter-spacing: 15px;
-            color: #FFF;     
-            font-weight: 900;
+            
 
         }
     }
@@ -58,6 +67,14 @@
                 font-size: 60px;
             }
         }
+
+        .gretting{
+            
+            span{
+                font-size: 40px;
+            }
+        }
+
         
     }
 

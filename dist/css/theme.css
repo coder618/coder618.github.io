@@ -6231,25 +6231,32 @@ section:hover > .sub-title:after,
     text-align: center; }
   .banner .gretting {
     overflow: hidden;
-    height: 140px;
     margin-bottom: 25px; }
+    .banner .gretting span {
+      line-height: 1;
+      text-shadow: 3px 3px 6px rgba(150, 150, 150, 0.3);
+      font-size: 100px;
+      letter-spacing: 15px;
+      color: #FFF;
+      font-weight: 900;
+      animation-name: greetings;
+      animation-duration: 4s;
+      display: block;
+      animation: greetings 2.5s;
+      animation-iteration-count: infinite; }
   .banner ul {
     animation-name: gretting;
     padding: 0;
     list-style: none;
     transition: all .4s ease; }
-    .banner ul li {
-      text-shadow: 3px 3px 6px rgba(150, 150, 150, 0.3);
-      font-size: 100px;
-      letter-spacing: 15px;
-      color: #FFF;
-      font-weight: 900; }
   @media (max-width: 767.98px) {
     .banner {
       padding-top: 40px;
       padding-bottom: 40px; }
       .banner ul li {
-        font-size: 60px; } }
+        font-size: 60px; }
+      .banner .gretting span {
+        font-size: 40px; } }
 
 .about-wraper {
   color: #FFF;
@@ -6280,9 +6287,6 @@ section:hover > .sub-title:after,
 
 .skill-each-item {
   margin-bottom: 1.5rem; }
-  @media (max-width: 767.98px) {
-    .skill-each-item {
-      margin-bottom: 0; } }
 
 section:not(.banner) {
   padding-top: 60px;
@@ -6416,6 +6420,14 @@ svg#logo {
 @keyframes stroke-offset {
   100% {
     stroke-dashoffset: -35%; } }
+
+@keyframes greetings {
+  0% {
+    transform: translateY(100%); }
+  10%, 80%, 90% {
+    transform: translateY(0%); }
+  100% {
+    transform: translateY(-100%); } }
 
 footer {
   background-color: #000;

@@ -2,6 +2,16 @@
 $( document ).ready(function() {
     console.log( "ready!" );
     skill_animation = true;
+    itteration = 1;
+    greetings_arr = [
+      'Hello',
+      'Bonjour',
+      'Hola',
+      'مرحبا',
+      '你好',
+      'こんにちは',
+      'cześć'
+    ];
     // particlesJS("animated-banner", {"particles":{"number":{"value":40,"density":{"enable":false,"value_area":800}},"color":{"value":"#f20000"},"shape":{"type":"edge","stroke":{"width":0,"color":"#ff0000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":1.5,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":false,"distance":0,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":6,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":false,"mode":"repulse"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);
 
   particlesJS("animated-banner", {
@@ -117,39 +127,19 @@ $( document ).ready(function() {
 
 
 
+    function change_greetings(){      
 
 
       
+      setInterval( function (   ) {
+        $(".gretting").html( "<span>" + greetings_arr[itteration] + "</span>" );
+        ( itteration == (greetings_arr.length - 1) ) ? itteration = 0 : itteration++ ;        
+      }, 2500 );
 
 
-
-
-
-     function change_text(){
-      var parent = $(".gretting ul");
-      var value = parent.css("margin-top");
-      var words = $(".gretting ul > li").length;
-
-      if( value == '0px' ) {
-        parent.css("margin-top", "-150px");
-      }else if( value == '-150px' ){
-        parent.css("margin-top", "-300px");        
-      }else if( value == '-300px' ){
-        parent.css("margin-top", "-450px");        
-      }else if( value == '-450px' ){
-        parent.css("margin-top", "-600px");        
-      }else if( value == '-600px' ){
-        parent.css("margin-top", "-750px");        
-      }else if( value == '-750px' ){
-        parent.css("margin-top", "-900px");        
-      }
-      else if( value == '-900px' ){
-        parent.css("margin-top", "0px");        
-      }
 
     }
-
-    setInterval(change_text, 2000);
+    change_greetings()
 
 
     function do_skill_animation(){
