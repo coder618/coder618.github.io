@@ -163,22 +163,31 @@ $( document ).ready(function() {
   change_greetings();
 
 
-    function do_skill_animation(){
-      $('.skill-each-item').each(function(){
-        $(this).find('.skill-status').animate({
-          width:$(this).attr('data-percent')
-        },2000);
-      });
-      skill_animation = false;
+  function do_skill_animation(){
+    $('.skill-each-item').each(function(){
+      $(this).find('.skill-status').animate({
+        width:$(this).attr('data-percent')
+      },2000);
+    });
+    skill_animation = false;
+  }
+
+  $( document ).on('scroll', function(){
+    var current_position =  $(this).scrollTop();
+
+    if(  current_position > 1000 && skill_animation ) {
+      do_skill_animation();
     }
 
-    $( document ).on('scroll', function(){
-      var current_position =  $(this).scrollTop();
+  });
 
-      if(  current_position > 1000 && skill_animation ) {
-        do_skill_animation();
-      }
+  //Scroll
+  $(".scroll-down-btn").on('click', function (event) {
+    event.preventDefault();
 
-    });
+    $('html, body').animate({
+      scrollTop: $($.attr(this, 'href')).offset().top
+    }, 500);
+  });
 
 });// Document ready

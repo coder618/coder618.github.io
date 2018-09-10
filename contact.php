@@ -1,4 +1,4 @@
-<footer>    
+<footer id="contact">    
     <h2 class="section-title">Let's Talk</h2>
 
     <p class="contact-mesg">

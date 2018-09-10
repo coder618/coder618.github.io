@@ -5,7 +5,7 @@
             
             <div class="col-md-8 section-content">
                 <h2 class="section-title" >Intro</h2>
-                <p>I am fully motivated and I always want to Learn New Technologies, to make life easier ;). I am pasinate about doing coding and logical stuff and like to create awesome thing</p>
+                <p>I am motivated and I always want to Learn New Technologies, to make life easier ;). I am pasinate about doing coding and logical stuff and like to create awesome thing</p>
                 <p>I am also a quick learner and I always try hard to finish assaign project before it meet the deadline.</p>
                 
                 
@@ -27,7 +27,7 @@
                 </div>
                 <div class="link-section">
                     <a href="Web_developer_Ahadul_Islam.pdf" target="_blank" class="coder618-btn gradient-btn main-btn">Download CV</a>
-                    <button class="coder618-btn gradient-btn main-btn">Contact</button>
+                    <a href="#contact" class="coder618-btn gradient-btn main-btn scroll-down-btn">Contact Me</a>
                 </div>
             </div>
             
