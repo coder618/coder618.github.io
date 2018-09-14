@@ -15,13 +15,13 @@ $( document ).ready(function() {
   skill_animation = true;
   itteration = 1;
   greetings_arr = [
-    'Hello',
     'Bonjour',
     'Hola',
     'مرحبا',
     '你好',
     'こんにちは',
-    'cześć'
+    'cześć',
+    'Hello'
   ];
 
 

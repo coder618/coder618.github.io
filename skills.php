@@ -79,7 +79,7 @@
         <div class="sub-section">    
             <h3 class="sub-title">Wordpress Thing</h3>
             <p>
-                In many projects, my client’s require the ability to manage the content of their website My themself. 
+                In many projects, my client’s require the ability to manage the content of their website by themself. 
                 WordPress is the world’s most popular content management system which I have many years of experience with. 
                 I would like to share some plugin/tools which i use to develop wordpress site.
             </p>
