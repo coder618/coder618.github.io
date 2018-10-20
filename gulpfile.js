@@ -48,27 +48,6 @@ gulp.task('sass',  function () {
 gulp.task( 'watch', function() {
     gulp.watch( paths.sass_src + '/**/*.scss', ['styles'] );
     gulp.watch( paths.js_src + '/*.js',  ['scripts'] );
-
-    //Inside the watch task.
-    gulp.watch( paths.imgsrc + '/**', ['imagemin-watch'] );
-});
-
-/**
- * Ensures the 'imagemin' task is complete before reloading browsers
- * @verbose
- */
-gulp.task( 'imagemin-watch', ['imagemin'], function( done ) {
-  browserSync.reload();
-  done();
-});
-
-// Run:
-// gulp imagemin
-// Running image optimizing task
-gulp.task( 'imagemin', function() {
-    gulp.src( paths.imgsrc + '/**' )
-    .pipe( imagemin() )
-    .pipe( gulp.dest( paths.img ) );
 });
 
 // Run:
@@ -108,19 +87,6 @@ gulp.task( 'minifycss', function() {
 
 gulp.task( 'styles', function( callback ) {
     gulpSequence( 'sass', 'minifycss' )( callback );
-} );
-
-// Run:
-// gulp browser-sync
-// Starts browser-sync task for starting the server.
-gulp.task( 'browser-sync', function() {
-    browserSync.init( cfg.browserSyncWatchFiles, cfg.browserSyncOptions );
-} );
-
-// Run:
-// gulp watch-bs
-// Starts watcher with browser-sync. Browser-sync reloads page automatically on your browser
-gulp.task( 'watch-bs', ['browser-sync', 'watch', 'scripts'], function() { 
 } );
 
 
