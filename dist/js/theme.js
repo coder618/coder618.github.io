@@ -35,11 +35,84 @@ $( document ).ready(function() {
     change_banner_height();
   });
   
+  
+particlesJS("animated-banner", {
+  "particles": {
+    "number": {
+      "value": 50,
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
+    },
+    "color": {
+      "value": "#ffffff"
+    },
+    "shape": {
+      "type": "circle",
+    },
+    "opacity": {
+      "value": 0,
+      "random": false
+    },
+    "size": {
+      "value": 2,
+      "random": false,
+      "anim": {
+        "enable": false
+      }
+    },
+    "line_linked": {
+      "enable": true,
+      "opacity": 0.2
+    },
+    "move": {
+      "enable": true,
+      "speed": 1,
+      "direction": "none",
+      "random": true,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "bubble"
+      },
+      "onclick": {
+        "enable": false
+      },
+      "resize": true
+    },
+    "modes": {
+      "bubble": {
+        "distance": 200,
+        "size": 2,
+        "duration": 2,
+        "opacity": 1,
+        "speed": 3
+      }
+    }
+  },
+  "retina_detect": true
+});
 
 
+  /* 
 
+  particlesJS.load('animated-banner', 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/130527/particles.json', function() {
+  console.log('callback - particles.js config loaded');
+  });   
 
-    
 
   particlesJS("animated-banner", {
       "particles": {
@@ -153,7 +226,7 @@ $( document ).ready(function() {
   }); // Particle js
 
 
-
+  */
   function change_greetings(){      
     setInterval( function (   ) {
       $(".gretting").html( "<span>" + greetings_arr[itteration] + "</span>" );
