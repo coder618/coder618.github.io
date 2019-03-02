@@ -6,6 +6,6 @@
         or you can share you dream project idea to make it real. :)
     </p>
     
-    <a class="email-link" href="mailto:webmaster@a1islam@outlook.com">a1islam@outlook.com</a>
+    <a class="email-link" href="mailto:a1islam@outlook.com">a1islam@outlook.com</a>
         
 </footer>
