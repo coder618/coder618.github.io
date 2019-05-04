@@ -23,7 +23,7 @@
         ],
         [
             'title' => 'Help Your Team',
-            'detail' => 'With my development skill I can help your team to speed up develpment progress to complete project faster'
+            'detail' => 'With my development skill I can help your team to speed up develpment progress to complete project faster',
             'img' => ''
         ]
     ]

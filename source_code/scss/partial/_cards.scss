@@ -1,4 +1,5 @@
 .service-card{
+
     padding: 30px 23px 18px 95px;
     position: relative;
     display: block;
@@ -50,6 +51,95 @@
             -webkit-transform: scale(1.05);
             transform: scale(1.05);
         }
+    }
+
+}
+
+.portfolio-card{
+    display: block;
+    box-shadow: 0 1px 7px rgba(0,0,0,.05);
+    transition: all .4s;
+    .img-section{
+        padding-bottom: 35%;
+        background-color: aqua;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;        
+        overflow: hidden;
+
+        &:after,
+        &:before{
+            content: "";
+            position: absolute;
+        }
+        &:after{
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,.5);
+            opacity: 0;
+            transition: all .2s;
+        }
+        &:before{
+            width: 50px;
+            height: 50px;
+            top: 10px;
+            z-index: 1;
+            background-image: url(../icon/arrow.svg);
+            background-size: 50px;
+            left: calc(50% - 25px);
+            top: calc(50% - 25px);
+            background-repeat: no-repeat;
+            transform: translateY(10px) ;
+            opacity: 0;
+            transition: all .3s;
+        }
+        
+    }
+    .text-section{
+        padding: 15px 20px;
+        border-top: 3px solid #5679a2;
+        >*{
+            margin-bottom: 8px;
+        }
+    }
+    .title{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .detail{
+        font-size: 16px;
+        color: #111111;
+    }
+    .role{
+        background-color: #5679a2;
+        color: #000;
+        font-size: 16px;
+        display: inline-block;
+        padding: 0 8px;
+        border-radius: 5px;
+        color: #FFF;
+    }
+    &:hover{
+        text-decoration: none;
+        transform: translateY(-10px);
+        box-shadow: 0 8px 7px rgba(0,0,0,.05);
+
+        .img-section{
+            &:before{
+                opacity: 1;
+                transform: translateY(0);
+            }
+            &:after{
+                opacity: 1;
+            }
+
+
+
+        }
+
     }
 
 }

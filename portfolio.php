@@ -1,21 +1,74 @@
+<?php 
+    $webistes = [
+        [
+            'title'=> 'Nagad',            
+            'detail' => 'Built with Wordpress',
+            'role' => 'Both Font-end and Backend',
+            'img' => './dist/img/webiste/nagad.jpg',
+            'link' => 'https://nagad.com.bd'
+        ],
+
+        [
+            'title'=> 'Ecoute',            
+            'detail' => 'Built with Wordpress and VueJS',
+            'role' => 'Both Font-end and Backend',
+            'img' => './dist/img/webiste/ecoute.jpg',
+
+            'link' => 'https://ecoute.ch'
+        ],
+        [
+            'title'=> 'Maatra',            
+            'detail' => 'Built with Wordpress and Elementor',
+            'role' => 'Both Font-end and Backend',
+            'img' => './dist/img/webiste/maatra.jpg',
+            'link' => 'https://maatra.com'
+        ],
+        [
+            'title'=> 'City Sapphire',
+            'detail' => 'Built with Wordpress and Elementor',
+            'role' => 'Both Font-end and Backend',
+            'img' => './dist/img/webiste/sapphire.jpg',
+            'link' => 'http://www.citygem.com.bd/sapphire'
+        ],
+        [
+            'title'=> 'Citybank',
+            'detail' => 'Built with Laravel',
+            'role' => 'Font-end Only',
+            'img' => './dist/img/webiste/citybank.jpg',
+            'link' => 'http://www.thecitybank.com'
+        ],
+        [
+            'title'=> 'Thinkdemy',
+            'detail' => 'Static Site',
+            'role' => 'Full Site',
+            'img' => './dist/img/webiste/thinkdemy.jpg',
+            'link' => 'http://www.thinkdemy.com/'
+        ],
+    ]
+?>
+
 <section class="section protfolio">
 
 
     <div class="container">    
         <h2 class="section-title">Portfolio</h2>
-        <p>Here is some of my Portfolio, Which i would like to share with you</p>
+        <p class="lead"> Here is some of my Portfolio, Which i would like to share with you</p>
         
         
         <div class="row items">
-            <?php for( $i=0; $i<6; $i++ ): ?>            
-            <a class="col-sm-6 col-md-6 col-xs-12 col-lg-4  item card-item">
-                <div class="service-card">            
-                    <div class="img-section"></div>
-                    <h3>Build Custom Template </h3>
-                    <p>I can build you fully custom design wordpress template with Visual editing option</p>
-                </div>
-            </a>
-            <?php endfor; ?>
+            <?php foreach( $webistes as $item ): ?>            
+            <div class="item">
+                <a target="_blank" href="<?php echo $item['link'] ?>" class="portfolio-card">
+                    <div class="img-section" style="background-image:url(<?php echo $item['img'] ?>)"></div>
+
+                    <div class="text-section">
+                        <h3 class="title"><?php echo $item['title'] ?></h3>
+                        <p class="detail"><?php echo $item['detail'] ?></p>
+                        <p class="role"><?php echo $item['role'] ?></p>                        
+                    </div>
+                </a>
+            </div>
+            <?php endforeach; ?>
 
         </div>
 

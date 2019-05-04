@@ -1,0 +1,13 @@
+section.protfolio{
+    .lead{
+        margin-bottom: 60px;
+    }
+
+    @include media-breakpoint-down(sm) {
+        .lead{
+            margin-bottom: 30px;
+        }
+    
+    }
+    
+}
