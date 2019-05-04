@@ -4,7 +4,7 @@
             'title'=> 'Nagad',            
             'detail' => 'Built with Wordpress',
             'role' => 'Both Front End and Backend',
-            'img' => './dist/img/webiste/nagad.jpg',
+            'img' => './dist/img/portfolio/nagad.jpg',
             'link' => 'https://nagad.com.bd'
         ],
 
@@ -12,7 +12,7 @@
             'title'=> 'Ecoute',            
             'detail' => 'Built with Wordpress and VueJS',
             'role' => 'Both Front End and Backend',
-            'img' => './dist/img/webiste/ecoute.jpg',
+            'img' => './dist/img/portfolio/ecoute.jpg',
 
             'link' => 'https://ecoute.ch'
         ],
@@ -20,28 +20,28 @@
             'title'=> 'Maatra',            
             'detail' => 'Built with Wordpress and Elementor',
             'role' => 'Both Front End and Backend',
-            'img' => './dist/img/webiste/maatra.jpg',
+            'img' => './dist/img/portfolio/maatra.jpg',
             'link' => 'https://maatra.com'
         ],
         [
             'title'=> 'City Sapphire',
             'detail' => 'Built with Wordpress and Elementor',
             'role' => 'Both Front End and Backend',
-            'img' => './dist/img/webiste/sapphire.jpg',
+            'img' => './dist/img/portfolio/sapphire.jpg',
             'link' => 'http://www.citygem.com.bd/sapphire'
         ],
         [
             'title'=> 'Citybank',
             'detail' => 'Built with Laravel',
             'role' => 'Front End Only',
-            'img' => './dist/img/webiste/citybank.jpg',
+            'img' => './dist/img/portfolio/citybank.jpg',
             'link' => 'http://www.thecitybank.com'
         ],
         [
             'title'=> 'Thinkdemy',
             'detail' => 'Static Site',
             'role' => 'Full Site',
-            'img' => './dist/img/webiste/thinkdemy.jpg',
+            'img' => './dist/img/portfolio/thinkdemy.jpg',
             'link' => 'http://www.thinkdemy.com/'
         ],
     ]
