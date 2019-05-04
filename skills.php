@@ -28,6 +28,10 @@
                 <div class="skill-each-item col-md-6" data-percent="70%">
                     <div class="skill-name"><h4>PHP</h4></div>
                     <div class="skill-status" id="skill_php"></div>        
+                </div>   
+                <div class="skill-each-item col-md-6" data-percent="40%">
+                    <div class="skill-name"><h4>Python</h4></div>
+                    <div class="skill-status" id="skill_python"></div>        
                 </div>        
             </div>
         </div>
@@ -38,6 +42,10 @@
                     <div class="skill-name"><h4>WordPress</h4></div>
                     <div class="skill-status" id="skill_wordpress"></div>        
                 </div>
+                <div class="skill-each-item col-md-6" data-percent="40%">
+                    <div class="skill-name"><h4>Django</h4></div>
+                    <div class="skill-status" id="skill_jumla"></div>        
+                </div>     
                 <div class="skill-each-item col-md-6" data-percent="50%">
                     <div class="skill-name"><h4>Laravel</h4></div>
                     <div class="skill-status" id="skill_laravel"></div>        
@@ -46,10 +54,7 @@
                     <div class="skill-name"><h4>Codeigniter</h4></div>
                     <div class="skill-status" id="skill_codeigniter"></div>        
                 </div>
-                <div class="skill-each-item col-md-6" data-percent="45%">
-                    <div class="skill-name"><h4>Joomla</h4></div>
-                    <div class="skill-status" id="skill_jumla"></div>        
-                </div>        
+                   
             </div>
         </div>
 
@@ -88,7 +93,14 @@
                     
                     <ul class="skill-list">
                         <li>Gutenberg</li>
-                        <li>Elementor</li>
+                        <li>Elementor</li>                        
+                    </ul>
+                    
+                </div>
+                <div class="skill-each-item col-md-6">
+                    
+                    <ul class="skill-list">
+                        
                         <li>Unyson</li>
                         <li>Piklist</li>
                     </ul>

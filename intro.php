@@ -5,10 +5,9 @@
             
             <div class="col-md-8 section-content">
                 <h2 class="section-title" >Intro</h2>
-                <p>I am motivated and I always want to Learn New Technologies, to make life easier ;). I am pasinate about doing coding and logical stuff and like to create awesome thing</p>
+                <p>I am motivated and I always want to Learn New Technologies, to make life easier ;). I am pasinate about doing coding and logical stuff and like to create awesome things.</p>
                 <p>I am also a quick learner and I always try hard to finish assaign project before it meet the deadline.</p>
-                
-                
+                                
                 <div class="sub-section section-content">
                     <h3 class="sub-title">Personal Info</h3>
                     <ul class="personal-info">

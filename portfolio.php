@@ -52,7 +52,7 @@
 
     <div class="container">    
         <h2 class="section-title">Portfolio</h2>
-        <p class="lead"> Here is some of my Portfolio, Which i would like to share with you</p>
+        <p class="lead"> Here is some of my Portfolio, Which i would like to share with you.</p>
         
         
         <div class="row items">
