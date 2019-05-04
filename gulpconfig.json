@@ -1,35 +1,40 @@
 {
-    "browserSyncOptions" : {
-      "proxy": "localhost/pp",
-      "notify": true
-    },
-    "browserSyncWatchFiles" : [
-      "./dist/css/*.min.css",
-      "./dist/js/*.min.js",      
-      "./**/*.php",
-      "./*.php"
-    ],
-    "paths" : {
-      "js": "./dist/js",
-      "css": "./dist/css",
-      "img": "./img",
-          "imgsrc": "./src/img",
-      "sass_src": "./source_code/scss",
-      "js_src": "./source_code/js",
-      "node": "./node_modules/",
-      "bower": "./bower_components/",
-      "dev": "./src",
-      "dist": "./dist",
-      "distprod": "./dist-product",
-      "vendor": "",
+  "browserSyncOptions" : {
+    "proxy": "localhost/wordpress/upay",
+    "notify": true
+  },
+  "browserSyncWatchFiles" : [
+    "./dist/css/*.min.css",
+    "./dist/js/*.min.js",
+    "./**/*.php",
+    "./source_code/scss/**/*.scss",
+    "./source_code/js/*.js"
+  ],
+  "paths" : {
+    "js": "./dist/js",
+    "css": "./dist/css",
+    "img": "./img",
+    "imgsrc": "./src/img",
+    "scss": "./source_code/scss",
+    "js_src": "./source_code/js",
+    "node": "./node_modules/",
+    "bower": "./bower_components/",
+    "dev": "./source_code",
+    "dist": "./dist",
+    "distprod": "./dist-product",
+    "vendor": "",
 
-      "js_packages_list" : [        
-        "./source_code/js/package/jquery.js",
-        "./source_code/js/package/particles.js",
-        "./source_code/js/custom.js"
-      ]
-    }
+    "js_packages_list" : [      
+      "./source_code/js/package/jquery.js",
+      "./source_code/js/package/particles.js",
+      "./source_code/js/custom.js"
 
-    
 
+
+
+    ]
   }
+
+
+
+}

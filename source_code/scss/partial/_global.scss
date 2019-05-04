@@ -95,3 +95,26 @@ section:hover,
 
 
     
+.items{
+    margin: -15px;
+    .item{
+        width: 33.33%;
+        padding: 15px;
+
+    }
+    @include media-breakpoint-down(md) {
+        margin: -10px;
+        .item{
+            width: 50%;
+            padding: 10px;
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        margin: -10px;
+        .item{
+            padding: 10px;
+            width: 100%;
+        }    
+    }
+}

@@ -87,6 +87,7 @@
                 <div class="skill-each-item col-md-6">
                     
                     <ul class="skill-list">
+                        <li>Gutenberg</li>
                         <li>Elementor</li>
                         <li>Unyson</li>
                         <li>Piklist</li>
