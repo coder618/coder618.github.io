@@ -3,7 +3,7 @@
         [
             'title'=> 'Nagad',            
             'detail' => 'Built with Wordpress',
-            'role' => 'Both Font-end and Backend',
+            'role' => 'Both Front End and Backend',
             'img' => './dist/img/webiste/nagad.jpg',
             'link' => 'https://nagad.com.bd'
         ],
@@ -11,7 +11,7 @@
         [
             'title'=> 'Ecoute',            
             'detail' => 'Built with Wordpress and VueJS',
-            'role' => 'Both Font-end and Backend',
+            'role' => 'Both Front End and Backend',
             'img' => './dist/img/webiste/ecoute.jpg',
 
             'link' => 'https://ecoute.ch'
@@ -19,21 +19,21 @@
         [
             'title'=> 'Maatra',            
             'detail' => 'Built with Wordpress and Elementor',
-            'role' => 'Both Font-end and Backend',
+            'role' => 'Both Front End and Backend',
             'img' => './dist/img/webiste/maatra.jpg',
             'link' => 'https://maatra.com'
         ],
         [
             'title'=> 'City Sapphire',
             'detail' => 'Built with Wordpress and Elementor',
-            'role' => 'Both Font-end and Backend',
+            'role' => 'Both Front End and Backend',
             'img' => './dist/img/webiste/sapphire.jpg',
             'link' => 'http://www.citygem.com.bd/sapphire'
         ],
         [
             'title'=> 'Citybank',
             'detail' => 'Built with Laravel',
-            'role' => 'Font-end Only',
+            'role' => 'Front End Only',
             'img' => './dist/img/webiste/citybank.jpg',
             'link' => 'http://www.thecitybank.com'
         ],

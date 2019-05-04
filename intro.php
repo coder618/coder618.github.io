@@ -22,7 +22,7 @@
             <div class="col-md-4">
                 <div class="img-section">
                     <div class="img-container">
-                        <img src="dist/img/profile.png" alt="">
+                        <img src="dist/img/profile.jpg" alt="">
                     </div>
                 </div>
                 <div class="link-section">
