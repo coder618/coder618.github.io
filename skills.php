@@ -2,7 +2,7 @@
     <div class="container">    
         <h2 class="section-title" >Skills</h2>
 
-        <p>I write in JavaScript, CSS, Java, and PHP. I also speak to databases and make servers do stuff. 
+        <p>I write in JavaScript, CSS and PHP. I also speak to databases and make servers do stuff. 
             I like working on scalability, performance, reusability, and great user experiences. 
             As a developer, I write code that conforms to industry standards and semantic best practices. 
             I like to develop pixel prefect design, interactive and fully functional interfaces.
