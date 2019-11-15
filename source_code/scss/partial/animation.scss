@@ -1,64 +1,81 @@
 @keyframes gretting {
-    0% {margin-top: 0px;}
-    33% {margin-top: -150px;}
+	0% {
+		margin-top: 0px;
+	}
+	33% {
+		margin-top: -150px;
+	}
 }
 
-
 svg#logo {
-    display: block;
-    font: 10.5em 'Montserrat';
-    width: 300px;
-    height: 200px;
-    margin: 0 auto;
+	display: block;
+	font: 10.5em "Montserrat";
+	width: 300px;
+	height: 200px;
+	margin: 0 auto;
 }
 
 .text-copy {
-    fill: none;
-    stroke: white;
-    stroke-dasharray: 6% 29%;
-    stroke-width: 5px;
-    stroke-dashoffset: 0%;
-    animation: stroke-offset 5.5s infinite linear;
+	fill: none;
+	stroke: white;
+	stroke-dasharray: 6% 29%;
+	stroke-width: 5px;
+	stroke-dashoffset: 0%;
+	animation: stroke-offset 5.5s infinite linear;
 }
 
-.text-copy:nth-child(1){
-	stroke: #4D163D;
+.text-copy:nth-child(1) {
+	stroke: #4d163d;
 	animation-delay: -1;
 }
 
-.text-copy:nth-child(2){
+.text-copy:nth-child(2) {
 	stroke: #840037;
 	animation-delay: -2s;
 }
 
-.text-copy:nth-child(3){
-	stroke: #BD0034;
+.text-copy:nth-child(3) {
+	stroke: #bd0034;
 	animation-delay: -3s;
 }
 
-.text-copy:nth-child(4){
-	stroke: #BD0034;
+.text-copy:nth-child(4) {
+	stroke: #bd0034;
 	animation-delay: -4s;
 }
 
-.text-copy:nth-child(5){
-	stroke: #FDB731;
+.text-copy:nth-child(5) {
+	stroke: #fdb731;
 	animation-delay: -5s;
 }
 
-@keyframes stroke-offset{
-	100% {stroke-dashoffset: -35%;}
+@keyframes stroke-offset {
+	100% {
+		stroke-dashoffset: -35%;
+	}
 }
 
-@keyframes greetings{
-    0%{
-        transform: translateY(100%);
-    }
-    10%,80%,90%{
-        transform: translateY(0%);
-    }
-    100%{
-        transform: translateY(-100%);
-    }
+@keyframes greetings {
+	0% {
+		transform: translateY(100%);
+	}
+	10%,
+	80%,
+	90% {
+		transform: translateY(0%);
+	}
+	100% {
+		transform: translateY(-100%);
+	}
+}
 
+@keyframes fadeInBottom {
+	0% {
+		opacity: 0;
+		transform: translateY(12px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }

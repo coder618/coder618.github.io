@@ -60,13 +60,14 @@
 
         <div class="sub-section">    
             <h3 class="sub-title">Javascripts Things I have Experience</h3>    
-            <p>I am not a Pro JavaScript Developer, But I like to work JavaScript especially Node.js and Firebase, And I think I have decent knowledge to start a project under a good mentor. I have Basic Knowledge in</p>            
+            <p>
+            I am not a Pro JavaScript Developer, But I like to work JavaScript especially in Node.js and react,
+            And I think I have decent knowledge to start a project under a good mentor. I have Basic Knowledge in</p>            
             <div class="row skills-wraper">
                 <div class="skill-each-item col-md-6">
                     <ul class="skill-list">
-                        <li>Node</li>
+                        <li>NodeJS</li>
                         <li>Express</li>
-                        <li>EJS</li>
                     </ul>
                     
                 </div>
@@ -75,18 +76,22 @@
                     <ul class="skill-list">
                         <li>React</li>
                         <li>Vue</li>
-                        <li>Google Firebase</li>
+                        <li>FeatherJS</li>
                     </ul>
-                </div>
-                       
+                </div>                       
             </div>
         </div>
         <div class="sub-section">    
-            <h3 class="sub-title">Wordpress Thing</h3>
+            <h3 class="sub-title">WordPress Thing</h3>
             <p>
-                In many projects, my client’s require the ability to manage the content of their website by themself. 
+                I consider myself as a Mid to Pro level WordPress Theme & Plugin Developer. <br>
+                <b>I have Contributed in WordPress by developing <a target="_blank" href="https://wordpress.org/plugins/render-posts/">Plugin</a> and Theme ( currently on review ).</b>
+                <br>
                 WordPress is the world’s most popular content management system which I have many years of experience with. 
-                I would like to share some plugin/tools which i use to develop wordpress site.
+                In many projects, my client’s require the ability to manage the content of their website by themself, and i tried my best to give them this facility. 
+                I would like to share some plugin/tools which i use to develop WordPress site.
+
+                For more info please visit my  <a target="_blank" href="https://profiles.wordpress.org/coder618/">WordPress Profile</a> 
             </p>
             <div class="row skills-wraper">
                 <div class="skill-each-item col-md-6">
@@ -97,17 +102,12 @@
                     </ul>
                     
                 </div>
-                <div class="skill-each-item col-md-6">
-                    
-                    <ul class="skill-list">
-                        
+                <div class="skill-each-item col-md-6">                    
+                    <ul class="skill-list">        
                         <li>Unyson</li>
                         <li>Piklist</li>
-                    </ul>
-                    
-                </div>
-
-                
+                    </ul>                    
+                </div>                
                        
             </div>
         </div>

@@ -6,9 +6,10 @@
                 <span>Hello</span>
             </div>
             <p>
-                I am a WordPress & Front-end Developer.
+                I am a Full Stack Web Developer and Open Source Contributor.
+
                 I have More than 3 years of Experience working with web technologies, 
-                providing responsive front-end development and WordPress websites.
+                providing responsive front-end development and WordPress Solution.
             </p>
             <p>
                 The work I provide is of high quality, fully responsive, and tested in a wide range of devices.
