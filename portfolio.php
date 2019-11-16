@@ -5,7 +5,7 @@
                 'title' => "Render Posts",
                 'link'=> 'https://wordpress.org/plugins/render-posts/',
                 'detail' => "Wordpress Plugin",
-                'img' => './dist/img/portfolio/render-posts.svg',
+                'img' => './dist/img/portfolio/render-posts.jpg',
                 'role' => "Plugin Author"
             ]
         ],
@@ -23,8 +23,7 @@
                 'title'=> 'Ecoute',            
                 'detail' => 'Built with Wordpress and VueJS',
                 'role' => 'Both Front End and Backend',
-                'img' => './dist/img/portfolio/ecoute.jpg',
-    
+                'img' => './dist/img/portfolio/ecoute.jpg',    
                 'link' => 'https://ecoute.ch'
             ],
             [

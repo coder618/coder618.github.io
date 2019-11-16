@@ -15,6 +15,9 @@ section.protfolio {
 
 	@include media-breakpoint-down(sm) {
 		padding-bottom: 30px;
+		.items {
+			margin: 0;
+		}
 
 		.lead {
 			margin-bottom: 30px;
