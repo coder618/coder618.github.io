@@ -56,6 +56,13 @@
                 'img' => './dist/img/portfolio/thinkdemy.jpg',
                 'link' => 'http://www.thinkdemy.com/'
             ],
+            [
+                'title'=> 'Timeless Component Builder',
+                'detail' => 'Static Site',
+                'role' => 'Full Site',
+                'img' => './dist/img/placeholder.png',
+                'link' => 'https://coder618.github.io/tcb/'
+            ],
         ],
         
     ];
