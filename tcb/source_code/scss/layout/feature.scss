@@ -1,0 +1,23 @@
+section.feature {
+	.item {
+		width: 50%;
+	}
+}
+
+.feature-item {
+	display: flex;
+	align-items: flex-start;
+	.text-section {
+		max-width: 320px;
+	}
+	svg {
+		width: 30px;
+		height: auto;
+		margin-right: 30px;
+		position: relative;
+		top: 5px;
+		path {
+			fill: $primary;
+		}
+	}
+}

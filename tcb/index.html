@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./dist/css/theme.min.css">
+
+    <title>Timeless Component Builder - WordPress Plugin</title>
+  </head>
+  <body>
+    <nav class="navbar  main-navigation">
+    <div class="container">
+        <div class="left-items">
+            <a class="navbar-brand" href="#">T C B</a>
+
+            <ul class="nav">
+                <li><a href="#feature" title="plugin feature">Features</a></li>
+                <li><a href="#how-to-build" title="how to build component">Build a Component</a></li>   
+                <li><a href="#how-to-use" title="how to use component">Use Component</a></li>   
+                <li><a href="#install" title="how to use component">Install/Download</a></li>   
+            </ul>
+        </div>
+
+        <a class="btn btn-ghost cta" target="_blank" href="https://coder618.github.io">Dev. Profile</a>
+
+
+    </div>
+</nav>
+    
+<section class="banner banner-slider">
+    <div class="container">
+        <div class="banner-slider-items">
+                        <div class="each-slide">
+                <div class="text-section">
+                    <h2 class="title">Timeless Component Builder</h2>
+                    <p class="detail">A wordpress plugin to help developer for creating solid component in minimum amount of time.</p>
+                    
+                    <a href="#how-to-build" class="btn btn-primary cta">GET STARTED</a>
+                </div>
+                <div class="img-section">
+                    <img src="./dist/img/undraw_speed_test_wxl0.png" alt="Timeless Component Builder">
+                </div>
+            </div>
+                   
+        
+        </div>
+    
+    
+    
+    </div>
+
+
+</section>    
+<section class="feature" id="feature">
+    <div class="container">
+
+    <h2>🥳 Features</h2>
+       
+        <div class="items">
+                        <div class="item">
+                <div class="feature-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.319 1.395-1.435 3.08 2.937 7.021-7.183 1.422 1.409-8.418 8.591z"/></svg>                    <div class="text-section">
+                        <h4>Build Timeless Component</h4>
+                        <p>Shortcode one of the most old feature in wordpress. This plugin 
+            use this feature for render your component, so I think you can consider your created component as timeless one.</p>                
+                    </div>
+                </div>           
+            
+            </div>
+                        <div class="item">
+                <div class="feature-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.319 1.395-1.435 3.08 2.937 7.021-7.183 1.422 1.409-8.418 8.591z"/></svg>                    <div class="text-section">
+                        <h4>Performance</h4>
+                        <p>This plugin load(enqueue) nothing to the front-end user. So you user can expect a faster load time.</p>                
+                    </div>
+                </div>           
+            
+            </div>
+                        <div class="item">
+                <div class="feature-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.319 1.395-1.435 3.08 2.937 7.021-7.183 1.422 1.409-8.418 8.591z"/></svg>                    <div class="text-section">
+                        <h4>Rapid Development</h4>
+                        <p>Develop Component more than 10X faster than other popular wordpress builder</p>                
+                    </div>
+                </div>           
+            
+            </div>
+                        <div class="item">
+                <div class="feature-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.319 1.395-1.435 3.08 2.937 7.021-7.183 1.422 1.409-8.418 8.591z"/></svg>                    <div class="text-section">
+                        <h4>Fully Loaded</h4>
+                        <p>This plugin Require 0 dependency to make a component.</p>                
+                    </div>
+                </div>           
+            
+            </div>
+                    
+        </div>   
+    
+    </div>
+
+</section>    
+<section class="create" id="how-to-build">
+
+    <div class="container">
+        <h2>😵 Build a Component in 2 easy steps</h2>
+       
+
+        <div class="step1">
+            <h5>Step 1</h5>
+            <p class="section-detail">
+            We are going to <span class="highlight">register</span> a new component by defining component fields.<br>
+            You can define This following function in your theme function.php file, or you can create
+            a separate file and link your file to function.php.
+            </p>
+                <div class="editor-wrapper">
+                    <pre><code>
+    function banner_component($arr){
+        $arr['banner'] = [
+            // for text field
+            [
+                'type' => 'text',
+                'field' => 'title',
+                'label' => __("Banner Title", 'text-domain')
+            ],
+            // for textarea field
+            [
+                'type' => 'textarea',
+                'field' => 'detail',
+                'label' => __("Banner Detail", 'text-domain')
+            ],
+            // for file field
+            [
+                'type' => 'file',
+                'field' => 'img',
+                'label' => __("Banner Image", 'text-domain')
+            ],
+            // for repeater field
+            [
+                'type' => 'file',
+                'field' => 'items',
+                'label' => __("Multiple items title", 'text-domain'),
+                'fields' => [
+                    [
+                        'type' => 'text',
+                        'field' => 'title',
+                        'label' => __("Title", 'text-domain')
+                    ],
+                    [
+                        'type' => 'textarea',
+                        'field' => 'detail',
+                        'label' => __("Title", 'text-domain')
+                    ],
+                    [
+                        'type' => 'file',
+                        'field' => 'img',
+                        'label' => __("Image", 'text-domain')
+                    ],
+                ]
+            ],
+
+
+        ];
+        return $arr;        
+    }
+    add_filter( 'tcb__fileds', 'banner_component' );
+
+    </code></pre>
+                
+                
+                
+                
+                
+                
+    </div>
+    <!-- step 1 end -->
+    <div class="step1">
+        <h5>Step 2</h5>
+        <p class="section-detail">
+        In this step we are going to create a template for the component, in .php file format. <br>
+        Create a file at your theme folder <span class="highlight">/tcb/component-banner.php</span> <br>        
+        And declare a variable like this > <span class="highlight">$data = tcb_data()</span> <br>
+        Then you are all set. all user input data will be return in <span class="highlight">$data </span> variable. <br>
+        </p>
+            <div class="editor-wrapper"><pre><code>
+    /*
+     file_info: tcb/component-banner.php
+     we can use any wordpress function , raw HTML, php here.
+    */
+
+
+    // all the component data will be return as an associative array.
+    $data = tcb_data();
+    print_r($data);
+
+
+        </code></pre></div>
+    </div>
+    <!-- step 2 end -->
+
+            
+        
+        </div>
+       
+    
+    </div>
+
+</section>    <section class="how-to-use" id="how-to-use">
+    <div class="container">
+        <h2>🤓How to use created component</h2>
+
+        <p>
+            User can create a component very easily.
+            To create a component go to 
+            <span class="highlight">Dashboard > Component > Add New</span>. <br>
+            Give a name, then <span class="highlight">select the component-type/category </span> and <span class="highlight">update</span> the component post. <br>
+            After update you will see Field's which related with this component will be visible in the screen. <br>
+            Provide the data and save the component post. <span class="highlight">Copy the shortcode to use the component </span>.
+        </p>
+
+
+    
+    
+    </div>
+
+
+</section>    <section class="install" id="install">
+    <div class="container">
+        <h2>🤔 Install The Plugin</h2>
+        <p class="detail">There are 2 option's you to install the plugin.</p>
+
+        <div class="options">
+            <h5>Option 1:</h5>
+            <ul>
+                <li>
+                    Download the plugin from <a href="https://github.com/coder618/Timeless-Component-Builder">Github</a>                   
+                </li>
+                <li>
+                    Upload the plugin to /wp-content/plugins folder
+                </li>
+                <li>Active the plugin</li>
+            </ul>
+        </div>
+        <div class="options">
+            <h5>Option 2:</h5>
+            <ul>
+                <li>Install the plugin through the WordPress plugins screen directly</li>
+                <li>Active the plugin</li>
+            </ul>
+        </div>
+
+
+    </div>
+
+
+</section>    <footer>
+    <div class="container">
+        <div class="content">
+            <p>This WordPress Plugin Developed by <a target="_blank" href="https://coder618.github.io" >CODER618</a></p>
+        </div>
+    </div>
+</footer>    
+    <script src="./dist/js/theme.js"></script>
+
+  </body>
+</html>

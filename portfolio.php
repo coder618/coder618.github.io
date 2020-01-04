@@ -7,6 +7,13 @@
                 'detail' => "Wordpress Plugin",
                 'img' => './dist/img/portfolio/render-posts.jpg',
                 'role' => "Plugin Author"
+            ],
+            [
+                'title' => "Timeless Component Builder",
+                'link'=> 'https://wordpress.org/plugins/timeless-component-builder/',
+                'detail' => "Wordpress Plugin",
+                'img' => './dist/img/placeholder.png',
+                'role' => "Plugin Author"
             ]
         ],
 

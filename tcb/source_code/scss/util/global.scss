@@ -1,0 +1,125 @@
+.full-width {
+	width: 100%;
+}
+
+.only-mobile {
+	display: none;
+}
+
+@include media-breakpoint-down(sm) {
+	.only-mobile {
+		display: block;
+	}
+
+	.only-desktop {
+		display: none !important;
+	}
+}
+
+.img-section {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #fafafa;
+	width: 100%;
+	display: block;
+
+	img {
+		display: none;
+	}
+}
+// html {
+//   scroll-behavior: smooth;
+// }
+.items {
+	display: flex;
+	flex-wrap: wrap;
+	margin: -15px;
+
+	.item {
+		width: 33%;
+		padding: 15px !important;
+		animation: fadeInBottom 0.5s ease;
+
+		> div,
+		a {
+			overflow: hidden;
+		}
+	}
+
+	@include media-breakpoint-down(md) {
+		.items {
+			margin: -10px;
+		}
+
+		.item {
+			padding: 10px;
+			width: 50%;
+		}
+	}
+
+	@include media-breakpoint-down(xs) {
+		.items {
+			margin: -10px -10px;
+		}
+
+		.item {
+			padding: 10px 15px;
+			width: 100%;
+		}
+	}
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+body.modal-open .modal {
+	display: flex !important;
+	height: 100%;
+}
+
+body.modal-open .modal .modal-dialog {
+	margin: auto;
+}
+
+/* Bootstrap Modal fix"*/
+.modal[aria-hidden="true"] {
+	z-index: -1;
+}
+
+.flickity-page-dots {
+	.dot {
+		background-color: #d4d4d4;
+		transition: all 0.35s;
+		opacity: 1;
+		&.is-selected {
+			background-color: $primary !important;
+		}
+	}
+}
+
+/* flickity-fade */
+
+.flickity-enabled.is-fade .flickity-slider > * {
+	pointer-events: none;
+	z-index: 0;
+}
+
+.flickity-enabled.is-fade .flickity-slider > .is-selected {
+	pointer-events: auto;
+	z-index: 1;
+}
+
+section {
+	padding-top: 90px;
+	h2 {
+		font-weight: 700;
+		margin-bottom: 30px;
+	}
+	&:focus {
+		box-shadow: none;
+		outline: 0;
+	}
+}
