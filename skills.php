@@ -85,7 +85,7 @@
             <h3 class="sub-title">WordPress Thing</h3>
             <p>
                 I consider myself as a Mid to Pro level WordPress Theme & Plugin Developer. <br>
-                <b>I have Contributed in WordPress by developing <a target="_blank" href="https://wordpress.org/plugins/render-posts/">Plugin</a> and Theme ( currently on review ).</b>
+                <b>I have Contributed in WordPress by developing <a target="_blank" href="https://profiles.wordpress.org/coder618/#content-plugins">Plugin's</a> and Theme ( currently on review ).</b>
                 <br>
                 WordPress is the world’s most popular content management system which I have many years of experience with. 
                 In many projects, my client’s require the ability to manage the content of their website by themself, and i tried my best to give them this facility. 
