@@ -122,4 +122,7 @@ section {
 		box-shadow: none;
 		outline: 0;
 	}
+	@include media-breakpoint-down(sm) {
+		padding-top: 40px;
+	}
 }

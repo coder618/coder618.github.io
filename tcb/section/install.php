@@ -7,7 +7,7 @@
             <h5>Option 1:</h5>
             <ul>
                 <li>
-                    Download the plugin from <a href="https://github.com/coder618/Timeless-Component-Builder">Github</a>                   
+                    Download the plugin from <a href="https://github.com/coder618/Timeless-Component-Builder">Github</a> , or <a href="https://wordpress.org/plugins/timeless-component-builder/">WordPress</a>
                 </li>
                 <li>
                     Upload the plugin to /wp-content/plugins folder

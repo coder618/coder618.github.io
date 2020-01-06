@@ -6,7 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="./dist/css/theme.min.css">
+    <!-- <link rel="stylesheet" href="./dist/css/theme.min.css"> -->
+    <style>
+    <?php 
+      echo file_get_contents('./dist/css/theme.min.css');
+    ?>
+    </style>
 
     <title>Timeless Component Builder - WordPress Plugin</title>
   </head>
@@ -19,7 +24,12 @@
     <?php include 'section/install.php'  ?>
     <?php include 'footer.php'  ?>
     
-    <script src="./dist/js/theme.js"></script>
+    <script>
+    
+    <?php 
+      echo file_get_contents('./dist/js/theme.js');
+    ?>
+    </script>
 
   </body>
 </html>

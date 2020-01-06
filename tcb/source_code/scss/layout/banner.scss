@@ -39,4 +39,14 @@
 			font-size: 14px;
 		}
 	}
+
+	@include media-breakpoint-down(sm) {
+		.each-slide {
+			flex-direction: column-reverse;
+			.img-section {
+				max-width: 100%;
+				height: auto;
+			}
+		}
+	}
 }

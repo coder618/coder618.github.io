@@ -2,6 +2,11 @@ section.feature {
 	.item {
 		width: 50%;
 	}
+	@include media-breakpoint-down(sm) {
+		.item {
+			width: 100%;
+		}
+	}
 }
 
 .feature-item {
