@@ -62,7 +62,7 @@
         ];
         return $arr;        
     }
-    add_filter( 'tcb__fileds', 'banner_component' );
+    add_filter( 'tcb__fields', 'banner_component' );
 
     </code></pre>
                 
