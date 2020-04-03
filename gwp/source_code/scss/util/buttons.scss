@@ -1,0 +1,35 @@
+.btn-orange {
+	// background-color: $orange;
+	color: #fff !important;
+}
+
+.btn-ghost {
+	border: 1px solid $primary;
+	color: $primary;
+	&:hover {
+		color: #fff;
+		background-color: $primary;
+	}
+}
+
+.btn {
+	// border-radius: 50px;
+	// border-radius: 50px;
+	font-weight: 500;
+	line-height: 30px;
+}
+.btn-transparent {
+	&:hover {
+		color: inherit;
+	}
+}
+
+.btn-secondary {
+	background: #9bc73d;
+	color: #182c39;
+}
+
+.btn-mobile-view-more {
+	@include br-text(16, 26, 600);
+	padding: 11px 20px;
+}

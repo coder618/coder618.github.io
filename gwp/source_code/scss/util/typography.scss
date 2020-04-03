@@ -1,0 +1,86 @@
+// .body-3 {
+//   @include br-text(14, 24);
+
+//   &.bold {
+//     font-weight: 600;
+//   }
+// }
+
+// .body-2 {
+//   @include br-text(16, 26);
+// }
+
+// h1,
+// .h1 {
+//   @include br-text(55, 65, 700);
+//   @include media-breakpoint-down(sm) {
+//     @include br-text(38, 45, 700);
+//   }
+// }
+// h2 {
+//   @include br-text(36, 45, 600);
+//   @include media-breakpoint-down(sm) {
+//     @include br-text(26, 42, 700);
+//   }
+// }
+// p {
+//   @include br-text(16, 26, 300);
+//   @include media-breakpoint-down(sm) {
+//     @include br-text(16, 26, 300);
+//   }
+// }
+
+// h4 {
+//   @include br-text(30, 40, 300);
+// }
+// .body1 {
+//   @include br-text(20, 30);
+//   @include media-breakpoint-down(sm) {
+//     @include br-text(16, 26);
+//   }
+//   &.lite {
+//     font-weight: 300;
+//   }
+// }
+// .body3 {
+//   @include br-text(16, 24, 300);
+// }
+.lead {
+	@include br-text(20, 30);
+}
+
+span.highlight {
+	padding: 2px 6px 4px 6px;
+	background-color: #4d55a2;
+	color: #fff;
+	display: inline-block;
+	border-radius: 5px;
+	font-size: 13px;
+}
+
+h5 {
+	@include br-text(22, 35, 700);
+}
+
+.install {
+	ul {
+		list-style: none;
+		padding: 0;
+		li {
+			margin-bottom: 10px;
+			position: relative;
+			margin: 0 0 10px 20px;
+			padding-left: 25px;
+			&:after {
+				content: " ";
+				border-radius: 8px;
+				width: 8px;
+				height: 8px;
+				background-color: $primary;
+				left: 0;
+				top: calc(50% - 4px);
+				position: absolute;
+			}
+		}
+	}
+}
