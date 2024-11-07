@@ -1,5 +1,5 @@
 import ProjectBanner from "@/components/ProjectBanner";
-
+import LivePreviewLink from "@/components/LivePreviewLink";
 export default function () {
     const projectData = {
         title: "Online Tally Counter",
@@ -58,16 +58,7 @@ export default function () {
                         </li>
                     </ul>
 
-                    <div className="live-preview-link ">
-                        Live preview available at <br />
-                        <div className="link-with-arrow">
-                            <img src="/images/link-arrow.svg" alt="arrow icon" />
-
-                            <a target="_blank" href="https://online-tally-counter.web.app/">
-                                https://online-tally-counter.web.app/
-                            </a>
-                        </div>
-                    </div>
+                    <LivePreviewLink link={projectData.platforms[0].link} />
                 </div>
             </div>
         </>

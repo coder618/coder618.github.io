@@ -1,5 +1,5 @@
 import ProjectBanner from "@/components/ProjectBanner";
-
+import LivePreviewLink from "@/components/LivePreviewLink";
 export default function () {
     const projectData = {
         title: "Advance Importer",
@@ -80,20 +80,7 @@ export default function () {
                         </li>
                     </ol>
 
-                    <div className="live-preview-link ">
-                        Hosted on wordpress.org
-                        <br />
-                        <div className="link-with-arrow">
-                            <img src="/images/link-arrow.svg" alt="arrow icon" />
-
-                            <a
-                                target="_blank"
-                                href="https://wordpress.org/plugins/advance-importer/"
-                            >
-                                https://wordpress.org/plugins/advance-importer/
-                            </a>
-                        </div>
-                    </div>
+                    <LivePreviewLink link={projectData.platforms[0].link} />
                 </div>
             </div>
         </>

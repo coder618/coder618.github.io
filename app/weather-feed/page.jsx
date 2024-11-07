@@ -1,5 +1,6 @@
 import ProjectBanner from "@/components/ProjectBanner";
 
+import LivePreviewLink from "@/components/LivePreviewLink";
 export default function () {
     const projectData = {
         title: "Weather Feed",
@@ -68,16 +69,7 @@ export default function () {
                         </li>
                     </ul>
 
-                    <div className="live-preview-link ">
-                        Live preview available at <br />
-                        <div className="link-with-arrow">
-                            <img src="/images/link-arrow.svg" alt="arrow icon" />
-
-                            <a target="_blank" href="https://weather-618.web.app/">
-                                https://weather-618.web.app/
-                            </a>
-                        </div>
-                    </div>
+                    <LivePreviewLink link={projectData.platforms[1].link} />
                 </div>
             </div>
         </>
