@@ -6,21 +6,21 @@ export default function Portfolio() {
             title: "Tally counter App with PWA",
             description:
                 "A multilingual tally counter support multiple counter, support pwa function in both mobile and windows 11 pc",
-            image: "/images/online-tally-counter.png",
+            image: "/images/online-tally-counter.jpg",
             link: "/online-tally-counter",
         },
         {
             title: "Eazy Icon",
             description:
                 "Download more than 9000+ free icons with custom color in both svg and png format",
-            image: "/images/eazyicon.png",
+            image: "/images/eazyicon.jpg",
             link: "/eazyicon",
         },
         {
             title: "Weather App",
             description:
                 "A weather web app based on React.js and OpenWeather API, with some cool features.",
-            image: "/images/weather-app.png",
+            image: "/images/weather-app.jpg",
             link: "/weather-feed",
         },
         {
@@ -53,6 +53,7 @@ export default function Portfolio() {
                                     src={`${item.image}`}
                                     alt="Online Tally Counter"
                                     className="w-full h-[400px] object-cover"
+                                    lazyload="true"
                                 />
                                 <div className="p-[30px] md:p-[40px]">
                                     <h3 className="text-[26px] font-bold leading-tight text-white mb-[8px]">

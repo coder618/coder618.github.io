@@ -41,6 +41,10 @@ export default function Technologies() {
             title: "scss",
             filename: "scss-logo.png",
         },
+        {
+            title: "tailwind",
+            filename: "tailwindcss.svg",
+        },
     ];
 
     return (

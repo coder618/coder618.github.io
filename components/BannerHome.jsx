@@ -66,7 +66,7 @@ export default function BannerHome() {
                             </svg>
 
                             <img
-                                src="/images/vt.png"
+                                src="/images/vt.jpg"
                                 alt="Video thumbnail"
                                 className="w-full h-auto cursor-pointer"
                                 onClick={(e) => {
