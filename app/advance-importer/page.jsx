@@ -84,7 +84,7 @@ export default function () {
                         Hosted on wordpress.org
                         <br />
                         <div className="link-with-arrow">
-                            <img src={`images/link-arrow.svg`} alt="arrow icon" />
+                            <img src={`/images/link-arrow.svg`} alt="arrow icon" />
                             <a
                                 target="_blank"
                                 href="https://wordpress.org/plugins/advance-importer/"

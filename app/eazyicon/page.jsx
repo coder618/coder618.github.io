@@ -56,7 +56,7 @@ export default function () {
                     <div className="live-preview-link ">
                         Live preview available at <br />
                         <div className="link-with-arrow">
-                            <img src={`images/link-arrow.svg`} alt="arrow icon" />
+                            <img src={`/images/link-arrow.svg`} alt="arrow icon" />
 
                             <a target="_blank" href="https://eazyicon.com/">
                                 https://eazyicon.com/
