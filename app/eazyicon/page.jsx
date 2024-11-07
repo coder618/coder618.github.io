@@ -47,10 +47,6 @@ export default function () {
                             <b>5 Style Supported: </b>You can choose from 5 different styles of
                             icons.
                         </li>
-                        <li>
-                            <b>5 Style Supported: </b>You can choose from 5 different styles of
-                            icons.
-                        </li>
                     </ul>
 
                     <div className="live-preview-link ">
