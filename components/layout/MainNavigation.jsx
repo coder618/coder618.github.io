@@ -7,14 +7,14 @@ export default function MainNavigation() {
             <div className="container mx-auto flex items-center justify-between">
                 <a
                     href="https://coder618.github.io"
-                    className="brand text-white font-bold text-[30px]"
+                    className="brand text-white font-bold text-[20px] md:text-[30px]  no-underline"
                 >
                     coder618
                 </a>
 
                 <a
                     href="#"
-                    className="cta-btn w-[160px] h-[60px] flex cursor-pointer text-black text-lg font-bold hover:bg-yellow-300 shadow-lg no-underline mt-0"
+                    className="cta-btn md:w-[160px] md:h-[60px] w-[140px] h-[50px] flex cursor-pointer text-black text-lg font-bold hover:bg-yellow-300 shadow-lg no-underline mt-0"
                     onClick={(e) => {
                         e.preventDefault();
                         const isHomePage = window.location.pathname === "/";

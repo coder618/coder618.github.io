@@ -48,12 +48,10 @@ export default function BannerHome() {
                     {!iframeVideo && (
                         <div className="relative rounded-[20px] overflow-hidden w-full max-w-[1040px] mx-auto mt-[60px] ">
                             <svg
-                                width={120}
-                                height={120}
                                 viewBox="0 0 32 32"
                                 fill="#98c7d7"
                                 xmlns="http://www.w3.org/2000/svg"
-                                className="absolute left-1/2 top-1/2 -translate-x-[60px] -translate-y-[60px] cursor-pointer hover:scale-125 transition-transform duration-300"
+                                className="absolute left-1/2 top-1/2 -translate-x-[50px] -translate-y-[50px] cursor-pointer hover:scale-125 transition-transform duration-300 w-[100px] h-[100px]   "
                                 onClick={(e) => {
                                     e.preventDefault();
                                     setIframeVideo(true);

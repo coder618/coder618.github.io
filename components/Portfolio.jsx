@@ -27,7 +27,7 @@ export default function Portfolio() {
             title: "Advance Importer",
             description:
                 "This wordpress plugin help you to import data from other wordpress website with all Media and attachment's data.",
-            image: "/images/advance-importer.png",
+            image: "/images/advance-importer.jpg",
             link: "/advance-importer",
         },
     ];
@@ -52,14 +52,14 @@ export default function Portfolio() {
                                 <img
                                     src={`${item.image}`}
                                     alt="Online Tally Counter"
-                                    className="w-full h-[400px] object-cover"
+                                    className="w-full h-auto object-cover"
                                     lazyload="true"
                                 />
-                                <div className="p-[30px] md:p-[40px]">
-                                    <h3 className="text-[26px] font-bold leading-tight text-white mb-[8px]">
+                                <div className="p-[25px] md:p-[40px]">
+                                    <h3 className="text-[22px] md:text-[26px]  font-bold leading-tight text-white mb-[8px]">
                                         {item.title}
                                     </h3>
-                                    <p className="text-[18px] text-[#a09cbb] leading-[1.6]">
+                                    <p className="text-[16px] md:text-[18px] text-[#a09cbb] leading-[1.6]">
                                         {item.description}
                                     </p>
                                 </div>

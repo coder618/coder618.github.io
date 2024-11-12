@@ -42,10 +42,10 @@ export default function Skills() {
                                 <img
                                     src={items.image}
                                     alt="wordpress logo"
-                                    className="w-[130px] h-auto mr-[20px] mb-[15px] "
+                                    className="w-[80px] md:w-[130px] h-auto mr-[20px] mb-[15px] "
                                 />
                                 <div className="text-left">
-                                    <h3 className="text-[26px] font-bold leading-tight mb-[8px] text-white">
+                                    <h3 className="text-[20px] md:text-[26px] font-bold leading-tight mb-[8px] text-white">
                                         {items.title}
                                     </h3>
                                     <p className="text-[18px] text-[#a09cbb] leading-[1.6]">
