@@ -39,7 +39,7 @@ export default function Footer() {
                     </a>
                 </div>
                 {/* Contact Links */}
-                <div className="contact-links flex  flex-row items-start ">
+                <div className="contact-links flex  flex-row items-start mt-4 md:mt-0 ">
                     <b className="mr-4 text-lg text-primary">Contact me:</b>
 
                     <div className="links flex flex-row items-start md:items-center">

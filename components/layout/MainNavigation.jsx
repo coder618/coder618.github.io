@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function MainNavigation() {
     return (
-        <div className="main-navigation bg-transparent w-full xl:py-8 p-4  ">
+        <div className="main-navigation bg-transparent w-full  py-4  ">
             <div className="container mx-auto flex items-center justify-between">
                 <a
                     href="https://coder618.github.io"
