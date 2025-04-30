@@ -7,7 +7,7 @@ export default function () {
         platforms: [
             {
                 title: "Eazyicon",
-                link: "https://eazyicon.com/",
+                link: "https://eazy-icon.web.app/",
                 type: "website",
             },
         ],
