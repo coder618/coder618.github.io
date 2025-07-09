@@ -11,39 +11,23 @@ export default function BannerHome() {
                     <h1 className="text-[40px] xl:text-[90px] font-bold mb-[10px] leading-tight text-[#fff] text-shadow">
                         Ahadul Islam
                     </h1>
-
                     <h2 className="text-[22px] xl:text-[32px] leading-[1.6] font-normal mb-[10px] font-josefin-sans">
                         Full stack web developer
                     </h2>
 
-                    <div className="social-icons flex items-center justify-center mt-6">
-                        <h4 className="text-[20px] mr-[20px]">Follow me:</h4>
-                        <div className="flex">
-                            <a
-                                href="https://www.youtube.com/@HappyCoding101"
-                                target="_blank"
-                                className="mr-[20px]"
-                            >
-                                <img
-                                    src="/youtube.svg"
-                                    alt="youtube icon"
-                                    className="h-[40px] w-auto"
-                                />
-                            </a>
-                            <a
-                                href="https://www.linkedin.com/in/coder618/"
-                                target="_blank"
-                                className="mr-[10px] "
-                            >
-                                <img
-                                    src="/linkedin.svg"
-                                    alt="linkedin icon"
-                                    className="h-[40px] w-auto"
-                                />
-                            </a>
-                        </div>
+                    <div className="flex flex-col items-center gap-4 mt-6">
+                        <button
+                            className="w-[220px] h-[60px] bg-gradient-to-br from-orange-400 to-red-600 text-white font-bold text-lg rounded-xl shadow-2xl transform transition-all duration-200 hover:scale-110 hover:rotate-2 hover:shadow-orange-500/50 active:scale-95 tilt-3d"
+                            onClick={(e) => {
+                                e.preventDefault();
+                                window.open("https://calendly.com/iamahadul/30min", "_blank");
+                            }}
+                        >
+                            <span className="block transform transition-transform duration-200 hover:translate-y-[-2px]">
+                                Book a Meeting
+                            </span>
+                        </button>
                     </div>
-
                     {/* Video Thumbnail */}
                     {!iframeVideo && (
                         <div className="relative rounded-[20px] overflow-hidden w-full max-w-[1040px] mx-auto mt-[60px] ">
@@ -74,7 +58,6 @@ export default function BannerHome() {
                             />
                         </div>
                     )}
-
                     {iframeVideo && (
                         <div className="relative rounded-[20px] overflow-hidden w-full max-w-[1040px] mx-auto mt-[60px] h-[500px]">
                             <iframe
@@ -88,7 +71,6 @@ export default function BannerHome() {
                             ></iframe>
                         </div>
                     )}
-
                     {/* Video */}
                 </div>
             </div>
