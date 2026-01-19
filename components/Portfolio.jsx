@@ -3,13 +3,6 @@ import Link from "next/link";
 export default function Portfolio() {
     const items = [
         {
-            title: "Fluentlly",
-            description:
-                "An English learning app focused on speaking improvement, grammar, and vocabulary, with lots of features.",
-            image: "/images/fluentlly.jpg",
-            link: "http://fluentlly.com/",
-        },
-        {
             title: "Eazy Icon",
             description:
                 "Download more than 9000+ free icons with custom color in both svg and png format",
@@ -52,7 +45,10 @@ export default function Portfolio() {
                     const isExternal = item.link.startsWith("http");
 
                     const content = (
-                        <div className="w-full mx-auto border border-[#2b415c] rounded-[20px] overflow-hidden no-underline transition-all hover:scale-[1.03] transform ease-out hover:border-secondary hover:shadow-ccc">
+                        <div
+                            key={item.title}
+                            className="w-full mx-auto border border-[#2b415c] rounded-[20px] overflow-hidden no-underline transition-all hover:scale-[1.03] transform ease-out hover:border-secondary hover:shadow-ccc"
+                        >
                             <img
                                 src={item.image}
                                 alt={item.title}
